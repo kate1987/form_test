@@ -7,7 +7,7 @@ function tf_show_test_form()
 	$output .= '<div class="test-form">
     	<div class="test-form_wrapper">
 			<form class="test-form__form" action="" method="post" novalidate>
-				<img src="' . plugins_url('test-form/images/email.svg') . '" alt="form icon" />
+				<img src="' . plugin_dir_url(dirname(__FILE__)) . 'images/email.svg" alt="form icon" />
 				<h2>Subscribe</h2>
 				<p>Subscribe now and receive a box filled with hand-picked awesome items</p>
 				<div class="test-form__field">
